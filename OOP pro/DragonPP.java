@@ -9,7 +9,6 @@ public class DragonPP extends JPanel implements ActionListener, KeyListener {
     private Timer timer;
     private Image dragonImageRight, dragonImageLeft, tigerImageRight, tigerImageLeft, orbImage, gameOverImage, winImage, rockImg;
     private Image level1Background, level2Background, level3Background, currentBackground,greenorbImg,blueorbImg;
-    private int backgroundWidth, backgroundHeight;
     private int dragonX = 200, dragonY = 300;
     private int directionX = 0, directionY = 0;
     private int dragonDirectionX = 1;
